@@ -1,0 +1,3 @@
+/home/notaskynet/Documents/PL-Works/Labs/Lab-16/build/CMakeFiles/server.dir
+/home/notaskynet/Documents/PL-Works/Labs/Lab-16/build/CMakeFiles/edit_cache.dir
+/home/notaskynet/Documents/PL-Works/Labs/Lab-16/build/CMakeFiles/rebuild_cache.dir

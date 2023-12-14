@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+f9bd894ca2eb1681a2216492945e715a CMakeFiles/Drawer_autogen

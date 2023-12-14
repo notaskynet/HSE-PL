@@ -1,0 +1,66 @@
+@startuml
+
+
+
+
+
+/' Objects '/
+
+class MainWindow {
+	+MainWindow(QWidget* parent)
+	+~MainWindow()
+	-m_type : FigureType
+	-context_menu : QMenu*
+	-figure_actions : QMenu*
+	-m_pos : QPoint
+	-m_figure : QRect*
+	#isPointInside(QPoint point) : bool
+	-is_figure_created : bool
+	-is_moving : bool
+	-PIXEL_CHANGE : const int
+	-WINDOW_HEIGHT : const int
+	-WINDOW_WIDTH : const int
+	-m_angle : int
+	-m_side : int
+	#addPixels() : void
+	#customContextMenuShow(QPoint pos) : void
+	#deleteFigure() : void
+	#drawCircle() : void
+	#drawSquare() : void
+	#mouseMoveEvent(QMouseEvent* event) : void
+	#mousePressEvent(QMouseEvent* event) : void
+	#mouseReleaseEvent(QMouseEvent* event) : void
+	#paintEvent(QPaintEvent* event) : void
+	#reducePixels() : void
+	#rotateFigure() : void
+}
+
+
+enum FigureType {
+	CIRCLE
+	SQUARE
+}
+
+
+
+
+
+/' Inheritance relationships '/
+
+
+
+
+/' Aggregation relationships '/
+
+.MainWindow *-- .FigureType
+
+
+
+
+
+
+/' Nested objects '/
+
+
+
+@enduml

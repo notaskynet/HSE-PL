@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++20 -Wall -Werror -pedantic -rdynamic CMakeFiles/server.dir/src/main.cpp.o CMakeFiles/server.dir/src/server.cpp.o CMakeFiles/server.dir/src/ssocket.cpp.o CMakeFiles/server.dir/src/http_handler.cpp.o -o server 

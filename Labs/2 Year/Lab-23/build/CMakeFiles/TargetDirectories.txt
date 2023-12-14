@@ -1,0 +1,4 @@
+/Users/notaskynet/Desktop/PL-Works/Labs/2 Year/Lab-23/build/CMakeFiles/Drawer.dir
+/Users/notaskynet/Desktop/PL-Works/Labs/2 Year/Lab-23/build/CMakeFiles/edit_cache.dir
+/Users/notaskynet/Desktop/PL-Works/Labs/2 Year/Lab-23/build/CMakeFiles/rebuild_cache.dir
+/Users/notaskynet/Desktop/PL-Works/Labs/2 Year/Lab-23/build/CMakeFiles/Drawer_autogen.dir
